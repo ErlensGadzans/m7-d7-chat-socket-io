@@ -1,6 +1,7 @@
+import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import { Route, BrowseRouter as Router } from "react-router-dom";
+import { Route, BrowserRouter as Router } from "react-router-dom";
 import Chat from "./component/Chat";
 
 function App() {
